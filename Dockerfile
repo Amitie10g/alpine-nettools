@@ -1,4 +1,4 @@
-FROM alpine:edge AS base
+FROM alpine:edge
 MAINTAINER Amitie10g
 
 RUN apk --update add openssh nmap nmap-scripts nmap-ncat curl tcpdump bind-tools jq iputils lynx && \
