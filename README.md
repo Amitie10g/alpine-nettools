@@ -8,11 +8,16 @@ Based on alpine to keep the image nice and small.
 
 Tools installed
 --
-openssh
-nmap
-curl
-lynx
+* [bind-tools](https://pkgs.alpinelinux.org/package/edge/main/x86_64/bind-tools)
+* [curl](https://pkgs.alpinelinux.org/package/edge/main/x86_64/curl)
+* [lynx](https://pkgs.alpinelinux.org/package/edge/main/x86_64/lynx)
+* [nmap](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap)
+  * [nmap-ncat](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-ncat)
+  * [nmap-nping](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-nping)
+  * [nmap-scripts](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-scripts)
+* [tcpdump](https://pkgs.alpinelinux.org/package/edge/main/x86_64/tcpdump)
+
 
 Running Instructions
 --
-`docker run raesene/alpine-nettools <tool>`
+`docker run amitie10g/alpine-nettools <tool>`
