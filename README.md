@@ -15,8 +15,4 @@ lynx
 
 Running Instructions
 --
-`docker run -d -p 2200:22 raesene/alpine-nettools`
-
-`docker ps` - Get the container name
-
-`docker logs <container>` to get the root password
+`docker run raesene/alpine-nettools <tool>`
