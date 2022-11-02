@@ -1,28 +1,24 @@
 Alpine Net Tools Docker Container
 --
 
-I had a need for a container that'll keep running as a service and have some common networking tools in it.
-Also need something which doesn't have a default password, so this will generate a random one.
+I've created this  Alpine-based mainly as a small near-real-machine for GNS3 with few tools for checking connectivity and browsing.
 
-Based on alpine to keep the image nice and small.
-
-Tools installed
+Tools installed:
 --
 
-* [nmap](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap)
-  * [nmap-ncat](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-ncat)
-  * [nmap-nping](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-nping)
+* [nmap](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap) ``nmap``
+  * [nmap-ncat](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-ncat) ``ncap``
+  * [nmap-nping](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-nping) ``nping``
   * [nmap-scripts](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-scripts)
-* [iputils](https://pkgs.alpinelinux.org/package/edge/main/x86_64/iputils)
-* [traceroute](https://pkgs.alpinelinux.org/package/edge/community/x86_64/traceroute)
+* [iputils](https://pkgs.alpinelinux.org/package/edge/main/x86_64/iputils) ``ping`` ``ping6`` ``arping`` ``clockdiff`` ``tracepath`` ``tracepath6``
+* [traceroute](https://pkgs.alpinelinux.org/package/edge/community/x86_64/traceroute) ``traceroute``
 
-* [bind-tools](https://pkgs.alpinelinux.org/package/edge/main/x86_64/bind-tools)
+* [bind-tools](https://pkgs.alpinelinux.org/package/edge/main/x86_64/bind-tools) ``nslookup`` ``arpaname``
 
-* [curl](https://pkgs.alpinelinux.org/package/edge/main/x86_64/curl)
-* [lynx](https://pkgs.alpinelinux.org/package/edge/main/x86_64/lynx)
+* [curl](https://pkgs.alpinelinux.org/package/edge/main/x86_64/curl) ``curl``
+* [lynx](https://pkgs.alpinelinux.org/package/edge/main/x86_64/lynx) ``lynx``
 
-* [tcpdump](https://pkgs.alpinelinux.org/package/edge/main/x86_64/tcpdump)
-
+* [tcpdump](https://pkgs.alpinelinux.org/package/edge/main/x86_64/tcpdump) ``tcpdump``
 
 Running Instructions
 --
