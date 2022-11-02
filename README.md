@@ -8,13 +8,19 @@ Based on alpine to keep the image nice and small.
 
 Tools installed
 --
-* [bind-tools](https://pkgs.alpinelinux.org/package/edge/main/x86_64/bind-tools)
-* [curl](https://pkgs.alpinelinux.org/package/edge/main/x86_64/curl)
-* [lynx](https://pkgs.alpinelinux.org/package/edge/main/x86_64/lynx)
+
 * [nmap](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap)
   * [nmap-ncat](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-ncat)
   * [nmap-nping](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-nping)
   * [nmap-scripts](https://pkgs.alpinelinux.org/package/edge/main/x86_64/nmap-scripts)
+* [iputils](https://pkgs.alpinelinux.org/package/edge/main/x86_64/iputils)
+* [traceroute](https://pkgs.alpinelinux.org/package/edge/community/x86_64/traceroute)
+
+* [bind-tools](https://pkgs.alpinelinux.org/package/edge/main/x86_64/bind-tools)
+
+* [curl](https://pkgs.alpinelinux.org/package/edge/main/x86_64/curl)
+* [lynx](https://pkgs.alpinelinux.org/package/edge/main/x86_64/lynx)
+
 * [tcpdump](https://pkgs.alpinelinux.org/package/edge/main/x86_64/tcpdump)
 
 
