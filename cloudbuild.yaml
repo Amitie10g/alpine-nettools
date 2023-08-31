@@ -8,7 +8,7 @@ steps:
    args: ['-c', 'docker buildx create --use']
  - name: 'gcr.io/cloud-builders/docker'
    entrypoint: 'bash'
-   args: ['-c', 'docker buildx build --build-arg BASE_IMAGE=${_BASE_IMAGE} -t $$USERNAME/${REPO_NAME}:${TAG_NAME} --platform=${_PLATFORM} ${_ARGS} --cpuset-cpus=1 --push .']
+   args: ['-c', 'docker buildx build --build-arg BASE_IMAGE=${_BASE_IMAGE} -t $$USERNAME/${REPO_NAME} --platform=${_PLATFORM} ${_ARGS} --cpuset-cpus=1 --push .']
    secretEnv: ['USERNAME']
 options:
   logging: CLOUD_LOGGING_ONLY
